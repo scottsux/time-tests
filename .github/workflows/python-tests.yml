@@ -23,6 +23,7 @@ jobs:
           # FIXME Is there anything else that needs to be installed?
           python -m pip install pytest
           python -m pip install pytest-cov
+          python -m pip install pyyaml
       - name: Test with pytest
         run: |
           pytest
